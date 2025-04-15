@@ -1,0 +1,8 @@
+a = int(input("Introduce el primer número: "))
+b = int(input("Introduce el segundo número: "))
+c = int(input("Introduce el tercer numero: "))
+
+
+print("El número más grande entre {} {} y {} es {}, y el más pequeño es {}".format(a,b,c,
+                                                                                    max(a,b,c),
+                                                                                    min(a,b,c)))
