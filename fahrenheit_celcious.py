@@ -1,0 +1,7 @@
+a = float(int(input("Indica cuántos grados Fahrenheit hay de temperatura: ")))
+#(a - 32) * 5/9 =
+#(32-32) x 5 / 9 = 0 x 5 / 9 = 0 / 9 = 0°C
+a = a - 32
+a = a * 5
+
+print("Esta es la conversion de su temperatura de °F a °C: {}".format(a / 9))
